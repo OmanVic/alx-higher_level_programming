@@ -12,7 +12,7 @@ if number >= 0:
  and is less than 6 and not 0")
 elif last_digit == 0:
     print(f"Last digit of {number} is {last_digit} and is 0")
-else:
-    last_digit = -last_digit
+elif number < 0 and last_digit :
+    last_digit = -last_digit != 0:
     print(f"Last digit of {number} is {last_digit}\
  and is less than 6 and not 0")
