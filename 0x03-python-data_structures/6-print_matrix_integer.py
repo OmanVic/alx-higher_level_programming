@@ -4,7 +4,7 @@ def print_matrix_integer(matrix=[[]]):
     for lists in matrix:
         i = 0
         for item in lists:
-            print("{}".format(item), end="")
+            print("{:d}".format(item), end="")
             if i < len(lists) - 1:
                 print(" ", end="")
                 i += 1
