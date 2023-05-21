@@ -12,6 +12,8 @@ int check_cycle(listint_t *list)
 	listint_t *ptr;
 
 	ptr = list;
+	if (!ptr)
+		return (0);
 	while (ptr)
 	{
 		ptr = ptr->next;
