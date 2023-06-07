@@ -15,5 +15,6 @@ def list_division(my_list_1, my_list_2, list_length):
                 new_list.append(0)
                 print("out of range")
         finally:
-            if item > max((len(my_list_1) - 1), (len(my_list_2)-1)) or item == max(range(list_length)):
+            if item > max((len(my_list_1) - 1), (len(my_list_2)-1)) or \
+                    item == max(range(list_length)):
                 return new_list
