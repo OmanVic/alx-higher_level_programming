@@ -5,7 +5,6 @@
 class Square:
     """representing a square with a given size"""
 
-
     def __init__(self, size=0):
         self.__size = size
         if not isinstance(size, int):
