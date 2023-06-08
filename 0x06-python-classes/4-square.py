@@ -6,7 +6,11 @@ class Square:
     """defining the properties of a square"""
 
     def __init__(self, size):
-        """initialize a square"""
+        """initialize a square.
+
+        Args:
+            size (int): the size of the square.
+        """
         self.size = size
 
     @property
