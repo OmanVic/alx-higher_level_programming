@@ -4,12 +4,16 @@
 
 class Square:
     """defining the properties of a square"""
+
     def __init__(self, size):
+        """initialize a square"""
         self.size = size
+
     @property
     def size(self):
         """return the private attribute"""
         return self.__size
+
     @size.setter
     def size(self, value):
         """Set the size of a private attribute"""
@@ -19,8 +23,9 @@ class Square:
 
         if self.__size < 0:
             raise ValueError("size must be >= 0")
+
     def area(self):
-        """calculate the area"""
+        """Return the current square area"""
 
         area = self.__size * self.__size
         return area
